@@ -1,0 +1,73 @@
+/*
+ * THE FEED
+ */
+
+.removed{
+	opacity: 0.5;
+}
+
+.removed:hover, .removed:active{
+	opacity: 1;
+}
+
+.panel-heading {
+	height: 69px;
+}
+
+.chatter-avatar{
+	float: left;
+}
+
+/* Group & Poster name*/
+.preamblecontainer {
+	width: 438px;
+	float: left;
+	height: 16px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.topics {
+	float: left;
+	margin: 0 0 0 3px;
+	width: 350px;
+	height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.cxfeeditem .panel-heading a.feeditemtimestamp{
+	font-size: .9em;
+	margin-left: 10px;
+}
+
+.feeditemActionsWrapper {
+	text-align: right;
+	float: right;
+	width: 80px;
+	height: 30px;
+}
+
+.feeditemActionsWrapper a{
+	margin-right: 4px;
+}
+
+a.disabled, a.disabled:hover {
+	color: #AAA;/* @gray67 */
+	cursor: default;
+}
+
+a.success {
+	color: #51A62B;/* @brand-success-dark */
+}
+
+.feeditemActionMenu{
+	display: block;
+}
+
+.disclosureTrigger {
+	display:block;
+	float: left;
+	width: 20px;
+	margin: 10px 0 0 -4px;
+}
